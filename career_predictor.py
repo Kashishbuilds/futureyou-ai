@@ -3,24 +3,21 @@ FutureYou AI – Career Predictor (Inference)
 =============================================
 Loads the trained RandomForest model and exposes clean prediction APIs.
 """
-
 import os
 import json
 import joblib
 import numpy as np
 
-_MODEL_DIR = os.path.dirname(__file__)
+_MODEL_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def _load_artifacts():
-    model_path = os.path.join(_MODEL_DIR, "model", "career_model.pkl")
-    encoder_path = os.path.join(_MODEL_DIR, "model", "label_encoder.pkl")
-    meta_path = os.path.join(_MODEL_DIR, "model", "model_meta.json")
+    model_path = os.path.join(_MODEL_DIR, "career_model.pkl")
 
     clf = joblib.load(model_path)
-    le = joblib.load(encoder_path)
 
-    with open(meta_path, "r") as f:
-        meta = json.load(f)
+    # Since label encoder & meta not available
+    le = None
+    meta = None
 
     return clf, le, meta
 
