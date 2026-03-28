@@ -8,16 +8,18 @@ import json
 import joblib
 import numpy as np
 
-_MODEL_DIR = os.path.dirname(os.path.abspath(__file__))
+_MODEL_DIR = os.path.dirname(__file__)
 
 def _load_artifacts():
-    model_path = os.path.join(_MODEL_DIR, "career_model.pkl")
+    model_path = os.path.join(_MODEL_DIR, "model", "career_model.pkl")
+    encoder_path = os.path.join(_MODEL_DIR, "model", "label_encoder.pkl")
+    meta_path = os.path.join(_MODEL_DIR, "model", "model_meta.json")
 
     clf = joblib.load(model_path)
+    le = joblib.load(encoder_path)
 
-    # Since label encoder & meta not available
-    le = None
-    meta = None
+    with open(meta_path, "r") as f:
+        meta = json.load(f)
 
     return clf, le, meta
 
