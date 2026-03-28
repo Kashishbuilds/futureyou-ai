@@ -1,0 +1,293 @@
+{
+  "all_skills": [
+    "python",
+    "javascript",
+    "typescript",
+    "java",
+    "c++",
+    "c#",
+    "go",
+    "rust",
+    "kotlin",
+    "swift",
+    "php",
+    "ruby",
+    "scala",
+    "r",
+    "react",
+    "vue",
+    "angular",
+    "html",
+    "css",
+    "nodejs",
+    "graphql",
+    "rest api",
+    "machine learning",
+    "deep learning",
+    "nlp",
+    "computer vision",
+    "tensorflow",
+    "pytorch",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "sql",
+    "spark",
+    "hadoop",
+    "data visualization",
+    "tableau",
+    "power bi",
+    "statistics",
+    "data analysis",
+    "a/b testing",
+    "docker",
+    "kubernetes",
+    "aws",
+    "azure",
+    "gcp",
+    "terraform",
+    "ci/cd",
+    "linux",
+    "bash",
+    "git",
+    "android",
+    "ios",
+    "react native",
+    "flutter",
+    "cybersecurity",
+    "penetration testing",
+    "cryptography",
+    "network security",
+    "agile",
+    "scrum",
+    "system design",
+    "algorithms",
+    "data structures",
+    "communication",
+    "leadership",
+    "project management"
+  ],
+  "career_profiles": {
+    "Data Scientist": {
+      "required": [
+        "python",
+        "machine learning",
+        "statistics",
+        "pandas",
+        "numpy",
+        "sql",
+        "data visualization",
+        "scikit-learn",
+        "data analysis",
+        "a/b testing"
+      ],
+      "bonus": [
+        "deep learning",
+        "tensorflow",
+        "pytorch",
+        "spark",
+        "tableau",
+        "r"
+      ]
+    },
+    "Machine Learning Engineer": {
+      "required": [
+        "python",
+        "machine learning",
+        "deep learning",
+        "tensorflow",
+        "pytorch",
+        "scikit-learn",
+        "docker",
+        "git",
+        "algorithms",
+        "data structures"
+      ],
+      "bonus": [
+        "kubernetes",
+        "aws",
+        "mlops",
+        "scala",
+        "spark",
+        "system design"
+      ]
+    },
+    "Full Stack Developer": {
+      "required": [
+        "javascript",
+        "react",
+        "nodejs",
+        "html",
+        "css",
+        "rest api",
+        "sql",
+        "git",
+        "python",
+        "typescript"
+      ],
+      "bonus": [
+        "graphql",
+        "docker",
+        "aws",
+        "vue",
+        "angular",
+        "system design",
+        "agile"
+      ]
+    },
+    "DevOps Engineer": {
+      "required": [
+        "docker",
+        "kubernetes",
+        "aws",
+        "linux",
+        "bash",
+        "git",
+        "ci/cd",
+        "terraform",
+        "python",
+        "system design"
+      ],
+      "bonus": [
+        "azure",
+        "gcp",
+        "ansible",
+        "monitoring",
+        "scripting"
+      ]
+    },
+    "Cybersecurity Analyst": {
+      "required": [
+        "cybersecurity",
+        "network security",
+        "linux",
+        "penetration testing",
+        "python",
+        "bash",
+        "cryptography",
+        "git",
+        "system design"
+      ],
+      "bonus": [
+        "aws",
+        "docker",
+        "kubernetes",
+        "c++",
+        "forensics"
+      ]
+    },
+    "Android Developer": {
+      "required": [
+        "android",
+        "kotlin",
+        "java",
+        "git",
+        "rest api",
+        "sql",
+        "algorithms",
+        "data structures"
+      ],
+      "bonus": [
+        "react native",
+        "firebase",
+        "ci/cd",
+        "agile",
+        "system design"
+      ]
+    },
+    "iOS Developer": {
+      "required": [
+        "ios",
+        "swift",
+        "git",
+        "rest api",
+        "sql",
+        "algorithms",
+        "data structures",
+        "xcode"
+      ],
+      "bonus": [
+        "react native",
+        "firebase",
+        "ci/cd",
+        "agile",
+        "system design"
+      ]
+    },
+    "Data Engineer": {
+      "required": [
+        "python",
+        "sql",
+        "spark",
+        "hadoop",
+        "aws",
+        "docker",
+        "git",
+        "data analysis",
+        "linux",
+        "bash"
+      ],
+      "bonus": [
+        "scala",
+        "kubernetes",
+        "airflow",
+        "kafka",
+        "data visualization",
+        "terraform"
+      ]
+    },
+    "NLP Engineer": {
+      "required": [
+        "python",
+        "nlp",
+        "machine learning",
+        "deep learning",
+        "tensorflow",
+        "pytorch",
+        "pandas",
+        "numpy",
+        "scikit-learn",
+        "git"
+      ],
+      "bonus": [
+        "transformers",
+        "docker",
+        "aws",
+        "statistics",
+        "r"
+      ]
+    },
+    "Cloud Architect": {
+      "required": [
+        "aws",
+        "azure",
+        "gcp",
+        "terraform",
+        "docker",
+        "kubernetes",
+        "system design",
+        "linux",
+        "ci/cd",
+        "python"
+      ],
+      "bonus": [
+        "networking",
+        "security",
+        "leadership",
+        "project management"
+      ]
+    }
+  },
+  "classes": [
+    "Android Developer",
+    "Cloud Architect",
+    "Cybersecurity Analyst",
+    "Data Engineer",
+    "Data Scientist",
+    "DevOps Engineer",
+    "Full Stack Developer",
+    "Machine Learning Engineer",
+    "NLP Engineer",
+    "iOS Developer"
+  ]
+}
